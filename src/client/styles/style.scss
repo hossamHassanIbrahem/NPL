@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(223, 223, 219);
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+}
+
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
